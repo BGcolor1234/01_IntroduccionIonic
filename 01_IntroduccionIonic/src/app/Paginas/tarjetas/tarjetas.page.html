@@ -1,0 +1,70 @@
+<app-cabecera Titulo="Tarjeta"></app-cabecera>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card  class="auto-size-card">
+    <img [alt]="selectedCharacter?.name" [src]="selectedCharacter?.images?.[0]" class="character-image" />
+    <ion-card-header>
+      <p>{{ selectedCharacter?.name }}</p>
+      <ion-card-subtitle>malo</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  
+  <br><br>
+
+
+  <p>List Card</p>
+
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img [alt]="selectedCharacter?.name" [src]="selectedCharacter?.images?.[0]" class="character-image" />
+          </ion-thumbnail>
+          <p>{{ selectedCharacter?.name }}</p>
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img [alt]="selectedCharacter?.name" [src]="selectedCharacter?.images?.[0]" class="character-image" />
+          </ion-thumbnail>
+          <p>{{ selectedCharacter?.name }}</p>
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img [alt]="selectedCharacter?.name" [src]="selectedCharacter?.images?.[0]" class="character-image" />
+          </ion-thumbnail>
+          <p>{{ selectedCharacter?.name }}</p>
+        </ion-item>
+  
+        <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <img [alt]="selectedCharacter?.name" [src]="selectedCharacter?.images?.[0]" class="character-image" />
+          </ion-thumbnail>
+          <p>{{ selectedCharacter?.name }}</p>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+</ion-content>

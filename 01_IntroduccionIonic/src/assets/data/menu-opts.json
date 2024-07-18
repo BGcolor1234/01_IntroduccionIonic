@@ -1,0 +1,89 @@
+[{
+    "icono": "american-football-outline",
+    "nombre": "Action-Sheet",
+    "redireccionar": "/accion-shet"
+  },
+  {
+    "icono": "alert-circle-outline",
+    "nombre": "Alert",
+    "redireccionar": "/alerta"
+  },
+  {
+    "icono": "apps-outline",
+    "nombre": "Acordion",
+    "redireccionar": "/acordion"
+  },
+  {
+    "icono": "beaker-outline",
+    "nombre": "Avatar",
+    "redireccionar": "/avatar"
+  },
+  {
+    "icono": "radio-button-off-outline",
+    "nombre": "Botones",
+    "redireccionar": "/botones"
+  },
+  {
+    "icono": "list-outline",
+    "nombre": "Lista",
+    "redireccionar": "/lista"
+  },
+
+
+  {
+    "icono": "albums",
+    "nombre": "Tarjeta",
+    "redireccionar": "/tarjetas"
+  },
+
+  
+  {
+    "icono": "checkmark-circle",
+    "nombre": "Check",
+    "redireccionar": "/checkbox"
+  },
+
+  {
+    "icono": "disc",
+    "nombre": "Ionchip",
+    "redireccionar": "/ionchip"
+  },
+
+  {
+    "icono": "menu",
+    "nombre": "List-side",
+    "redireccionar": "/list-side"
+  },
+
+  {
+    "icono": "barcode",
+    "nombre": "Itemdivider",
+    "redireccionar": "/itemdivider"
+  },
+
+  {
+    "icono": "browsers",
+    "nombre": "Modal",
+    "redireccionar": "/modal"
+  },
+  
+  {
+    "icono": "speedometer",
+    "nombre": "Loadin",
+    "redireccionar": "/loadin"
+  },
+
+  {
+    "icono": "shuffle",
+    "nombre": "Range",
+    "redireccionar": "/range"
+  },
+
+  {
+    "icono": "map",
+    "nombre": "Segment",
+    "redireccionar": "/segment"
+  }
+
+
+]

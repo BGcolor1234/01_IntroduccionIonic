@@ -1,0 +1,29 @@
+<app-cabecera Titulo="avatar"></app-cabecera>
+
+<br>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <p>Basic Usage</p>
+    <br><br>
+    
+    <div *ngIf="selectedCharacter">
+      <ion-avatar>
+        <img [alt]="selectedCharacter.name" [src]="selectedCharacter.images[0]" />
+      </ion-avatar>
+      <p>{{ selectedCharacter.name }}</p>
+    </div>
+    
+    <br><br>
+    
+    <p>Chip Avatar</p>
+    <br><br>
+    
+    <ion-chip *ngIf="selectedCharacter">
+      <ion-avatar>
+        <img [alt]="selectedCharacter.name" [src]="selectedCharacter.images[0]" />
+      </ion-avatar>
+      <p>{{ selectedCharacter.name }}</p>
+    </ion-chip>
+  </div>
+</ion-content>
